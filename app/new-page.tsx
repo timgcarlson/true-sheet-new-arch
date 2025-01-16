@@ -8,7 +8,7 @@ import {
 import { TrueSheet } from '@lodev09/react-native-true-sheet';
 import { Fragment, useRef } from 'react';
 
-export default function TabTwoScreen() {
+export default function NewPageComponent() {
   const sheet = useRef<TrueSheet>(null);
   const sheet2 = useRef<TrueSheet>(null);
   const sheet3 = useRef<TrueSheet>(null);
